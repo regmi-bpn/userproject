@@ -11,3 +11,7 @@ urlpatterns = [
     path('contact',views.contact, name='contact'),
     path('about',views.about, name='about'),
 ]
+
+admin.site.site_header = "Animendations Admin"
+admin.site.site_title = "Animendetaions Admin Portal"
+admin.site.index_title = "Welcome to Animendations Researcher Portal"
